@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oliver O'Neill | Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="site">
+      <div class="header">
+        <a class="icon_link" target="_blank" href="https://github.com/oliveroneill"><img src="github.png"/></a>
+        <a class="icon_link" target="_blank" href="https://linkedin.com/in/oliver-oneill"><img src="linkedin.png"/></a>
+      </div>
+      <header class="intro">
+        <img src="https://i.stack.imgur.com/c53Kr.jpg" class="profile_pic"/>
+        <h2 class="intro_card">I'm <span class="name">Oliver O'Neill</span>, a software engineer with a focus on mobile app development.</h2>
+        <h3 class="intro_contact">
+          <span><a href="mailto:oliveroneill04@gmail.com" target="_blank" class="thick_link">Get in touch</a></span>
+        </h3>
+      </header>
+      <section class="section">
+        <div class="section_title">About</div>
+        <div class="section_content">
+          <p>
+            I enjoy solving problems and designing software architecture.
+          </p>
+          <p>
+            I've been working at a startup for the last four years developing apps and managing metric analysis. I've had a lot of experience deploying and testing apps, visualising data and writing database driven web servers.
+          </p>
+          <p>When I'm not programming, I spend my time making music which you can listen to <a href="http://breakupboy.bandcamp.com" class="underline_link" target="_blank">here</a>.</p>
+        </div>
+      </section>
+      <section class="section experience">
+        <div class="section_title">Experience</div>
+        <div class="section_content">
+          <div class="jobs">
+            <div class="job">
+              <div class="time_header">
+                <div class="job_company"><a href="https://interferex.com/" target="_blank" class="underline_link">InterfereX Communications Inc</a></div>
+                <div class="job_time">October 2013 - Present</div>
+              </div>
+              <div class="company_description">Improving reliability and performance of video delivery</div>
+              <div class="job_position">
+                Software Engineer
+              </div>
+              <div class="job_description">
+                Responsible for developing and deploying apps for iOS and Android
+                <ul>
+                  <li>Gained valuable insight into performance characteristics by developing metric collection and visualisation solutions specific to our key product</li>
+                  <li>Analysed hundreds of user tests by building and deploying a dashboard that visualised statistical and per-user metrics</li>
+                  <li>Innovated and improved our product by having a detailed understanding of video streaming technologies</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section education">
+        <div class="section_title">Education</div>
+        <div class="section_content">
+          <div class="jobs">
+            <div class="job">
+              <div class="time_header">
+                <div class="job_company"><a href="http://anu.edu.au/" target="_blank" class="underline_link">Australian National University</a></div>
+                <div class="job_time">January 2012 - December 2015</div>
+              </div>
+              <div class="job_position">
+                Bachelor of Software Engineering (Honours)
+              </div>
+              <div class="job_description">
+                Received First Class Honours and two Dean's List Awards.<br/>
+                GPA: 6.75 / 7.0
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section skills">
+        <div class="section_title">Skills</div>
+        <div class="section_content">
+          <div class="skillset">
+            <div class="skillset_category">
+              <div class="skillset_category_title">Languages</div>
+              <ul>
+                <li class="skill"><span class="project_tag">Swift</span></li>
+                <li class="skill"><span class="project_tag">Java</span></li>
+                <li class="skill"><span class="project_tag">Python</span></li>
+                <li class="skill"><span class="project_tag">Go</span></li>
+                <li class="skill"><span class="project_tag">JavaScript</span></li>
+                <li class="skill"><span class="project_tag">Kotlin</span></li>
+              </ul>
+            </div>
+            <div class="skillset_category">
+              <div class="skillset_category_title">Frameworks</div>
+              <ul>
+                <li class="skill"><span class="project_tag">Mockito</span></li>
+                <li class="skill"><span class="project_tag">Tornado</span></li>
+                <li class="skill"><span class="project_tag">React Native</span></li>
+                <li class="skill"><span class="project_tag">JUnit</span></li>
+              </ul>
+            </div>
+            <div class="skillset_category">
+              <div class="skillset_category_title">Tools</div>
+              <ul>
+                <li class="skill"><span class="project_tag">Xcode</span></li>
+                <li class="skill"><span class="project_tag">Android Studio</span></li>
+                <li class="skill"><span class="project_tag">Docker</span></li>
+                <li class="skill"><span class="project_tag">Amazon Web Services</span></li>
+                <li class="skill"><span class="project_tag">MongoDB</span></li>
+                <li class="skill"><span class="project_tag">Travis CI</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section projects">
+        <div class="section_title">Projects</div>
+        <div class="section_content">
+          <div class="project" id="han">
+            <div class="project_name">
+              <a href="https://itunes.apple.com/au/app/han-here-and-now/id1205247234?mt=8&ign-mpt=uo%3D4" target="_blank">
+                <img class="project_icon" src="https://i.stack.imgur.com/R79wW.png"/>
+              </a>
+              <a href="https://itunes.apple.com/au/app/han-here-and-now/id1205247234?mt=8&ign-mpt=uo%3D4" target="_blank" class="underline_link">Han - Here and Now
+              </a>
+            </div>
+            <p>
+              Han is an app that aggregates photos that were recently taken close to you and displays them in a feed. Images are displayed based on recency and distance, where you can easily at where each images is taken and directions to get there. You can find the source code for the server <a class="underline_link" href="https://github.com/oliveroneill/hanserver" target="_blank">on Github</a>. The server uses the Instagram API, Twitter API and Flickr API to populate the image feed. The image feed view was designed and developed as a library called <a class="underline_link" href="https://github.com/oliveroneill/FeedCollectionViewController" target="_blank">FeedCollectionViewController</a> and is discussed <a class="underline_link" href="#feedcollectionviewcontroller">below</a>.
+            </p>
+            <div class="project_tags"> <span class="project_tag">Swift</span> <span class="project_tag">Go</span> <span class="project_tag">MongoDB</span> <span class="project_tag">Docker</span> <span class="project_tag">AWS</span> <span class="project_tag">Instagram API</span> </div>
+          </div>
+          <div class="project" id="tod">
+            <div class="project_name">
+              <a href="https://itunes.apple.com/au/app/tod-time-of-departure/id767727720?mt=8" target="_blank">
+                <img class="project_icon" src="https://i.stack.imgur.com/sT8UL.png"/>
+              </a>
+              <a href="https://itunes.apple.com/au/app/tod-time-of-departure/id767727720?mt=8" target="_blank" class="underline_link">
+                Tod - Time of Departure
+              </a>
+            </div>
+            <p>
+              Tod is an app used for scheduling trips in order to receive a notification when it's time to leave. Tod will watch Google Maps traffic data to ensure that you leave with enough time to make it to your destination. It will also use available transit data to ensure that you don't arrive early at the bus stop. The client is written in React Native and the source code is available <a class="underline_link" href="https://github.com/oliveroneill/tod" target="_blank">here</a>, the server was written in Go and available <a class="underline_link" href="https://github.com/oliveroneill/todserver" target="_blank">here</a>. The Android version was also published to the
+              <a class="underline_link" href="https://play.google.com/store/apps/details?id=com.oliveroneill.tod&hl=en" target="_blank">Play Store</a>.
+            </p>
+            <div class="project_tags"> <span class="project_tag">React Native</span> <span class="project_tag">Postgres</span> <span class="project_tag">Docker</span> <span class="project_tag">APNS</span> <span class="project_tag">Firebase</span> <span class="project_tag">Google Maps API</span> </div>
+          </div>
+          <div class="project" id="feedcollectionviewcontroller">
+            <div class="project_name">
+              <a href="https://github.com/oliveroneill/FeedCollectionViewController" target="_blank">
+                <img class="project_icon" src="github.png"/>
+              </a>
+              <a href="https://github.com/oliveroneill/FeedCollectionViewController" target="_blank" class="underline_link">
+                FeedCollectionViewController
+              </a>
+            </div>
+            <p>
+              FeedCollectionViewController is a <a class="underline_link" href="http://cocoapods.org/pods/FeedCollectionViewController" target="_blank">Cocoapods library</a> written in Swift for iOS. It is a wrapper around UICollectionView for Facebook or Instagram inspired feeds. I've also written an equivalent Android library in Kotlin, that is available on <a class="underline_link" href="https://bintray.com/oliveroneill/ImageFeedView/ImageFeedView" target="_blank">JCenter</a> and is open source on <a class="underline_link" href="https://github.com/oliveroneill/ImageFeedView" target="_blank">Github</a>. This library was used in Han for its feed and photo viewer.
+            </p>
+            <div class="project_tags"> <span class="project_tag">Swift</span> <span class="project_tag">Kotlin</span> <span class="project_tag">Cocoapods</span> <span class="project_tag">JCenter</span> </div>
+          </div>
+          <div class="project" id="bert">
+            <div class="project_name">
+              <a href="https://github.com/oliveroneill/bert" target="_blank">
+                <img class="project_icon" src="github.png"/>
+              </a>
+              <a href="https://github.com/oliveroneill/bert" target="_blank" class="underline_link">Bert</a>
+            </div>
+            <p>
+              Bert is a terminal utility written in Node which is aimed to help developers solve common errors quickly. This project is currently a work in progress with a friend of mine. The program uses document analysis, notifications and specific error parsers to find errors and display solutions.
+            </p>
+            <div class="project_tags"> <span class="project_tag">Node</span> <span class="project_tag">Flow</span> </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer_name">
+          <div class="bottom"> <span>Oliver O'Neill</span> <span>2017</span> </div>
+        </div>
+        <div class="footer_links">
+          <a href="mailto:oliveroneill04@gmail.com" target="_blank"><img src="envelope.png"/></a>
+          <a target="_blank" href="https://github.com/oliveroneill"><img src="github.png"/></a>
+          <a target="_blank" href="https://linkedin.com/in/oliver-oneill"><img src="linkedin.png"/></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
