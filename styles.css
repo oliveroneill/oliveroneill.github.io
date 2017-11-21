@@ -238,13 +238,6 @@ html .project_name .underline_link:after {
     object-fit: cover;
     border-radius: 5px;
 }
-@media screen and (max-width: 480px) {
-    .profile_pic {
-        display: table;
-        margin: 0 auto;
-        margin-right: 100px;
-    }
-}
 .intro_card {
     font-weight: 300;
     max-width: 700px
