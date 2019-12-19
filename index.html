@@ -51,6 +51,7 @@
                 </ul>
               </div>
             </div>
+            <br/>
             <div class="job">
               <div class="time_header">
                 <div class="job_company"><a href="https://interferex.com/" target="_blank" class="underline_link">InterfereX Communications Inc</a></div>
@@ -135,6 +136,20 @@
       <section class="section projects">
         <div class="section_title">Projects</div>
         <div class="section_content">
+          <div class="project" id="wilt">
+            <div class="project_name">
+              <a href="https://github.com/oliveroneill/wilt" target="_blank">
+                <img class="project_icon" src="img/wilt_icon.png"/>
+              </a>
+              <a href="https://github.com/oliveroneill/wilt" target="_blank" class="underline_link">Wilt - What I Listen To
+              </a>
+            </div>
+            <p>
+              Wilt is an app used to track what a user listens to on Spotify (and potentially other streaming services).
+              This uses Spotify's Web API to periodically check a user's most recent listens and store this data in BigQuery. The <a class="underline_link" href="https://github.com/oliveroneill/wilt-ios" target="_blank">iOS</a> and <a class="underline_link" href="https://github.com/oliveroneill/wilt-android" target="_blank">Android</a> apps will display a user's top artists and tracks as well as a timeline of their weekly listens. Firebase is used for authentication and serverless compute. There is also a separate AWS Lambda function written in Swift for periodically querying the Spotify API, <a class="underline_link" href="https://github.com/oliveroneill/WiltCollector" target="_blank">available here</a>.
+            </p>
+            <div class="project_tags"> <span class="project_tag">Swift</span> <span class="project_tag">Kotlin</span> <span class="project_tag">Node</span> <span class="project_tag">Firebase</span> <span class="project_tag">BigQuery</span> <span class="project_tag">AWS Lambda</span> <span class="project_tag">Spotify API</span> </div>
+          </div>
           <div class="project" id="han">
             <div class="project_name">
               <a href="https://github.com/oliveroneill/hanserver" target="_blank">
@@ -149,6 +164,20 @@
             </p>
             <div class="project_tags"> <span class="project_tag">Swift</span> <span class="project_tag">Go</span> <span class="project_tag">MongoDB</span> <span class="project_tag">Docker</span> <span class="project_tag">AWS</span> <span class="project_tag">Instagram API</span> </div>
           </div>
+          <div class="project" id="soft">
+            <div class="project_name">
+              <a href="https://github.com/oliveroneill/Soft" target="_blank">
+                <img class="project_icon" src="img/github.png"/>
+              </a>
+              <a href="https://github.com/oliveroneill/Soft" target="_blank" class="underline_link">
+                Soft
+              </a>
+            </div>
+            <p>
+              Soft is a Swift library for querying the Spotify Web API. The library has Linux support and is used by Wilt for populating the database of users' listening history.
+            </p>
+            <div class="project_tags"> <span class="project_tag">Swift</span> <span class="project_tag">Swift Package Manager</span> <span class="project_tag">Spotify API</span> </div>
+          </div>
           <div class="project" id="tod">
             <div class="project_name">
               <a href="https://itunes.apple.com/au/app/tod-time-of-departure/id767727720?mt=8" target="_blank">
@@ -159,8 +188,7 @@
               </a>
             </div>
             <p>
-              Tod is an app used for scheduling trips in order to receive a notification when it's time to leave. Available on the App Store <a class="underline_link" href="https://itunes.apple.com/au/app/tod-time-of-departure/id767727720?mt=8">here</a>. Tod will watch Google Maps traffic data to ensure that you leave with enough time to make it to your destination. It will also use available transit data to ensure that you don't arrive early at the bus stop. The client is written in React Native and the source code is available <a class="underline_link" href="https://github.com/oliveroneill/tod" target="_blank">here</a>, the server was written in Go and available <a class="underline_link" href="https://github.com/oliveroneill/todserver" target="_blank">here</a>. The Android version was also published to the
-              <a class="underline_link" href="https://play.google.com/store/apps/details?id=com.oliveroneill.tod&hl=en" target="_blank">Play Store</a>.
+              Tod is an app used for scheduling trips in order to receive a notification when it's time to leave. Tod will watch Google Maps traffic data to ensure that you leave with enough time to make it to your destination. It will also use available transit data to ensure that you don't arrive early at the bus stop. The client is written in React Native and the source code is available <a class="underline_link" href="https://github.com/oliveroneill/tod" target="_blank">here</a>, the server was written in Go and available <a class="underline_link" href="https://github.com/oliveroneill/todserver" target="_blank">here</a>. This was once published to the App Store and Play Store but has since been removed since it's no longer being maintained and APIs have since changed.
             </p>
             <div class="project_tags"> <span class="project_tag">React Native</span> <span class="project_tag">Postgres</span> <span class="project_tag">Docker</span> <span class="project_tag">APNS</span> <span class="project_tag">Firebase</span> <span class="project_tag">Google Maps API</span> </div>
           </div>
