@@ -25,7 +25,7 @@
             I enjoy solving problems and designing software architecture.
           </p>
           <p>
-            I'm a senior software engineer working at Dolby Laboratories. I have several years of experience developing and deploying mobile apps and SDKs for both Android and iOS.
+            I'm a senior software engineer working at Apple. I have several years of experience developing and deploying mobile SDKs and apps for both Android and iOS.
           </p>
           <p>When I'm not programming, I spend my time making music which you can listen to <a href="http://breakupboy.bandcamp.com" class="underline_link" target="_blank">here</a>.</p>
         </div>
@@ -36,8 +36,27 @@
           <div class="jobs">
             <div class="job">
               <div class="time_header">
+                <div class="job_company"><a href="https://www.apple.com/" target="_blank" class="underline_link">Apple Inc.</a></div>
+                <div class="job_time">June 2020 - Present</div>
+              </div>
+              <div class="company_description">Building intelligent experiences for iOS and macOS</div>
+              <div class="job_position">
+                Senior Software Engineer
+              </div>
+              <div class="job_description">
+                Platform engineer for Siri's LLM-integrated architecture
+                <ul>
+                  <li>Led platform redesign to support an Apple Intelligence-driven Siri, enabling hundreds of new capabilities</li>
+                  <li>Designed and shipped a personalized recommendation system used by Siri and Spotlight</li>
+                  <li>Developed an on-device inference evaluation pipeline to enable A/B testing of different ML models</li>
+                </ul>
+              </div>
+            </div>
+            <br/>
+            <div class="job">
+              <div class="time_header">
                 <div class="job_company"><a href="https://www.dolby.com/" target="_blank" class="underline_link">Dolby Laboratories</a></div>
-                <div class="job_time">March 2018 - Present</div>
+                <div class="job_time">March 2018 - June 2020</div>
               </div>
               <div class="company_description">Improving content-viewing experiences</div>
               <div class="job_position">
@@ -102,22 +121,22 @@
               <div class="skillset_category_title">Languages</div>
               <ul>
                 <li class="skill"><span class="project_tag">Swift</span></li>
-                <li class="skill"><span class="project_tag">Java</span></li>
-                <li class="skill"><span class="project_tag">Kotlin</span></li>
                 <li class="skill"><span class="project_tag">Python</span></li>
-                <li class="skill"><span class="project_tag">Go</span></li>
+                <li class="skill"><span class="project_tag">Objective-C</span></li>
+                <li class="skill"><span class="project_tag">Java</span></li>
                 <li class="skill"><span class="project_tag">JavaScript</span></li>
+                <li class="skill"><span class="project_tag">Kotlin</span></li>
+                <li class="skill"><span class="project_tag">Go</span></li>
               </ul>
             </div>
             <div class="skillset_category">
               <div class="skillset_category_title">Frameworks</div>
               <ul>
-                <li class="skill"><span class="project_tag">Android Jetpack ViewModel</span></li>
-                <li class="skill"><span class="project_tag">Android Room</span></li>
-                <li class="skill"><span class="project_tag">Material Components</span></li>
-                <li class="skill"><span class="project_tag">Mockito</span></li>
-                <li class="skill"><span class="project_tag">JUnit</span></li>
-                <li class="skill"><span class="project_tag">iOS Combine</span></li>
+                <li class="skill"><span class="project_tag">GRDB</span></li>
+                <li class="skill"><span class="project_tag">SwiftUI</span></li>
+                <li class="skill"><span class="project_tag">CoreML</span></li>
+                <li class="skill"><span class="project_tag">Combine</span></li>
+                <li class="skill"><span class="project_tag">Swift Macros</span></li>
               </ul>
             </div>
             <div class="skillset_category">
@@ -125,11 +144,11 @@
               <ul>
                 <li class="skill"><span class="project_tag">Xcode</span></li>
                 <li class="skill"><span class="project_tag">Android Studio</span></li>
-                <li class="skill"><span class="project_tag">TestFlight</span></li>
-                <li class="skill"><span class="project_tag">Firebase</span></li>
+                <li class="skill"><span class="project_tag">SQLite</span></li>
+                <li class="skill"><span class="project_tag">Splunk</span></li>
                 <li class="skill"><span class="project_tag">Docker</span></li>
-                <li class="skill"><span class="project_tag">Amazon Web Services</span></li>
                 <li class="skill"><span class="project_tag">MongoDB</span></li>
+                <li class="skill"><span class="project_tag">Amazon Web Services</span></li>
               </ul>
             </div>
           </div>
@@ -148,7 +167,6 @@
             </div>
             <p>
               Wilt is an app used to track what a user listens to on Spotify (and potentially other streaming services).
-              Now available on the <a class="underline_link" href="https://apps.apple.com/us/app/wilt/id1495792040?ls=1" target="_blank">iOS App Store</a>!
               This uses Spotify's Web API to periodically check a user's most recent listens and store this data in BigQuery. The <a class="underline_link" href="https://github.com/oliveroneill/wilt-ios" target="_blank">iOS</a> and <a class="underline_link" href="https://github.com/oliveroneill/wilt-android" target="_blank">Android</a> apps will display a user's top artists and tracks as well as a timeline of their weekly listens. Firebase is used for authentication and serverless compute. There is also a separate AWS Lambda function written in Swift for periodically querying the Spotify API, <a class="underline_link" href="https://github.com/oliveroneill/WiltCollector" target="_blank">available here</a>.
             </p>
             <div class="project_tags"> <span class="project_tag">Swift</span> <span class="project_tag">Kotlin</span> <span class="project_tag">Node</span> <span class="project_tag">Firebase</span> <span class="project_tag">BigQuery</span> <span class="project_tag">AWS Lambda</span> <span class="project_tag">Spotify API</span> </div>
@@ -183,10 +201,10 @@
           </div>
           <div class="project" id="tod">
             <div class="project_name">
-              <a href="https://itunes.apple.com/au/app/tod-time-of-departure/id767727720?mt=8" target="_blank">
+              <a href="https://github.com/oliveroneill/tod" target="_blank">
                 <img class="project_icon" src="img/tod_icon.png"/>
               </a>
-              <a href="https://itunes.apple.com/au/app/tod-time-of-departure/id767727720?mt=8" target="_blank" class="underline_link">
+              <a href="https://github.com/oliveroneill/tod" target="_blank" class="underline_link">
                 Tod - Time of Departure
               </a>
             </div>
