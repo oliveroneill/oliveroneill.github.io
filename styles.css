@@ -374,6 +374,9 @@ html .project_name .underline_link:after {
 .job_description {
     font-size: .95rem
 }
+.job_subtitle {
+    font-size: .85rem
+}
 .projects .project {
     max-width: 605px;
     margin-bottom: 50px
