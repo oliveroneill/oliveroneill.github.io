@@ -331,7 +331,7 @@ html .project_name .underline_link:after {
 .experience .job_company {
     font-weight: 700;
 }
-.experience .company_description {
+.company_description {
     font-size: .8rem;
     padding-bottom: 10px
 }
